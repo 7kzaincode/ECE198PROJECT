@@ -1,0 +1,15 @@
+export const paths = {
+  home: '/',
+  selectPatient: '/select-patient',
+  auth: { signIn: '/auth/sign-in', signUp: '/auth/sign-up', resetPassword: '/auth/reset-password' },
+  dashboard: {
+    overview: '/dashboard',
+    progress: '/dashboard/progress',
+    dataOverview: '/dashboard/overview',
+    account: '/dashboard/account',
+    customers: '/dashboard/customers',
+    integrations: '/dashboard/integrations',
+    settings: '/dashboard/settings',
+  },
+  errors: { notFound: '/errors/not-found' },
+} as const;
